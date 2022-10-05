@@ -1,0 +1,194 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.App_Left{
+  width: 25%;
+  border-right: 2px #f7f7f7 solid;
+}
+
+.App_Left h1{
+  margin: 0;
+  font-size: 20px;
+  margin: 0 20px;
+  margin-top: 20px;
+}
+
+.App_Middle{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App_Middle_Profile_Con{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px #f7f7f7 solid;
+  background-color: #fff;
+}
+
+.App_Middle_Message_Con{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+
+.App_Middle_Input_Con{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-top: 2px #f7f7f7 solid;
+  background-color: #fff;
+}
+
+.App_Middle h1{
+  margin: 0;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.App_Middle h2{
+  margin: 0;
+  font-size: 20px;
+  color: rgb(0, 187, 0);
+  margin-left: 10px;
+}
+
+.App_Middle h3{
+  margin: 0;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+.App_Middle form{
+  height: 100%;
+  flex: 1;
+  margin-left: 5%;
+}
+
+.App_Middle input{
+  height: 100%;
+  width: 80%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  background-color: transparent;
+}
+
+.App_Middle button{
+  height: 35px;
+  padding: 0 15px;
+  border-radius: 8px;
+  border: none;
+  font-size: 17px;
+  margin-right: 5%;
+}
+
+.Chat_Bubble{
+  border-radius: 10px;
+  max-width: 50%;
+  margin: 0 5%;
+  padding: 10px;
+  color: #fff;
+  background-color: blue;
+  margin-bottom: 10px;
+  border-bottom-right-radius: 2px;
+  align-self: flex-end;
+}
+
+.Chat_Bubble1{
+  border-radius: 10px;
+  margin: 0 5%;
+  padding: 10px;
+  color: #000;
+  background-color: #e9e9e9;
+  margin-bottom: 10px;
+  border-bottom-left-radius: 2px;
+  align-self: flex-start;
+}
+
+.App_Right{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border-left: 2px #f7f7f7 solid;
+}
+
+.App_Right_Top{
+  height: 50%;
+  background-color: lightblue;
+}
+
+.App_Right_Bottom{
+  height: 50%;
+  background-color: lightpink;
+}
+
+.App_Right h1{
+  margin: 0 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.App_Right p{
+  margin: 0 10px;
+  margin-top: 10px;
+  word-break: break-all;
+}
+
+.Modal{
+  display: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+.Modal_Show{
+  display: flex;
+}
+
+.Modal_Con{
+  width: 350px;
+  height: auto;
+  border-radius: 8px;
+  background-color: #fff;
+  outline: 2px #f7f7f7 solid;
+}
+
+.Modal input{
+  width: 86%;
+  margin-left: 5%;
+  margin-top: 20px;
+  height: 40px;
+  padding: 0 2%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+
+.Modal button{
+  width: 86%;
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  height: 40px;
+  padding: 0 2%;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border-radius: 8px;
+  color: #fff;
+  background-color: blue;
+}

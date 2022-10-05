@@ -51,3 +51,5 @@ Here we can see both users Umesh and Friend 1 connected to room number 98765
 ![Chatting and encryption](https://user-images.githubusercontent.com/68506944/194099249-d9996932-28f5-4662-895a-dc485a647149.PNG)
 
 Here we can see the messages linked and encrypted hash on the right side.
+
+##### Note: Use Enter button to send the message.
